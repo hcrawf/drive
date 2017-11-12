@@ -1,0 +1,106 @@
+body{
+  font-family: 'Karla', sans-serif;
+}
+
+a{
+  color: #666;
+}
+
+a:hover{
+  color: #0000dc;
+}
+
+h5{
+  font-family: 'Lora', serif;
+}
+
+/* CUSTOM NAVBAR STYLING */
+
+.navbar{
+  height:99px;
+  background-color: #FFF;
+}
+
+.navbar .fa{
+  font-size: 20px;
+}
+
+.navbar-light .navbar-brand {
+    color: #0000dc;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #666;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #666;
+}
+
+.navbar li{
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.navbar a{
+  padding-top: 39px;
+  padding-bottom: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #000;
+}
+
+@media (min-width: 992px) {
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.navbar a:hover{
+  background-color: #eee;
+}
+
+/* HOME PAGE STYLING */
+
+.home-hero{
+  height: 600px;
+  background-color: #0000dc;
+  background-image: url('https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/16q4/671590/2017-bugatti-chiron-first-ride-review-car-and-driver-photo-672957-s-original.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   background-position: center;
+}
+
+/* FOOTER STYLING */
+
+footer{
+  padding-top: 50px;
+  font-size: 15px;
+}
+
+footer p{
+  width: 75%;
+  margin-top: 20px;
+  color: #666;
+}
+
+footer .col{
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+footer ul{
+  padding:0;
+  margin:0;
+}
+
+footer li{
+  list-style-type: none;
+  margin-top: 20px;
+}

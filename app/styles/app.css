@@ -10,8 +10,30 @@ a:hover{
   color: #0000dc;
 }
 
+h1{
+  font-family: 'Lora', serif;
+}
+
+h2{
+  font-family: 'Lora', serif;
+}
+
+h3{
+  font-family: 'Lora', serif;
+}
+
+h4{
+  font-family: 'Lora', serif;
+}
+
 h5{
   font-family: 'Lora', serif;
+}
+
+.btn-cm{
+  background-color: #0000dc;
+  color: #FFF;
+  letter-spacing: 2px;
 }
 
 /* CUSTOM NAVBAR STYLING */
@@ -26,17 +48,17 @@ h5{
 }
 
 .navbar-light .navbar-brand {
-    color: #0000dc;
+    color: #000;
     font-size: 25px;
-    font-family: 'Lora', serif;
+    letter-spacing: 2px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #666;
+    color: #000;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #666;
+    color: #000;
 }
 
 .navbar li{
@@ -69,7 +91,7 @@ h5{
 .home-hero{
   height: 600px;
   background-color: #0000dc;
-  background-image: url('https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/images/16q4/671590/2017-bugatti-chiron-first-ride-review-car-and-driver-photo-672957-s-original.jpg');
+  background-image: url('https://www.ultimatedrives.net/_images/main-images/French-Riviera-Driving-Holiday-3.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -77,11 +99,100 @@ h5{
    background-position: center;
 }
 
+.hero-copy{
+  padding-top: 50px;
+}
+
+.hero-copy-box{
+  background-color: rgba(255,255,255,0.7);
+  padding: 30px;
+}
+
+.value-prop{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Lora', serif;
+}
+
+.value-prop .fa{
+  color: #0000dc;
+  padding-right: 10px;
+}
+
+.get-started{
+  text-align: center;
+  background-color: #0000dc;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.get-started p{
+  font-family: 'Lora', serif;
+  font-size: 22px;
+  color: #FFF;
+}
+
+.get-started a{
+  font-family: 'Karla', sans-serif;
+  font-size: 17px;
+  border-bottom: 1px solid;
+  color: #999;
+  letter-spacing: 2px;
+  margin-left: 5px;
+}
+
+.get-started a:hover{
+  text-decoration: none;
+  color: #FFF
+}
+
+
+
+
+
+.home-reg{
+  text-align: center;
+  background-color: #000;
+  color: #FFF;
+}
+
+.home-reg p{
+  width:65%;
+  margin: auto;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.home-reg a{
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: #FFF;
+}
+
+.home-reg-para{
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.home-reg-row{
+  border-top: 1px solid #333;
+}
+
+.home-reg-link{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.home-reg-link-left{
+  border-right: 1px solid #333;
+}
+
 /* FOOTER STYLING */
 
 footer{
   padding-top: 50px;
   font-size: 15px;
+  padding-bottom: 70px;
 }
 
 footer p{
